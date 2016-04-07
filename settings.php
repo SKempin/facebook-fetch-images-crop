@@ -7,25 +7,27 @@
 
     // require crop function
     require_once('crop_function/crop.php');
-
-    // create empty arrays
-    $facebook = [];
-    $image_crop = [];
-
-
+    
+    
     // Facebook Settings
-    $facebook['access_token'] = 'hhg'; // FB access token
-    $facebook['album_id'] = 't'; // set FB album ID (as seen www.facebook.com/*********)
-    $facebook['image_limit'] = 12;
+    $facebook = array(
+        'access_token'  => '',              // (string) Valid Facebook access token
+        'album_id'      => '',              // (string) Facebook album ID (as seen www.facebook.com/*********)
+        'image_limit'   => 8                // (integer) Number of image uploads to fetch
+    );
     
     
     // Image Crop Settings
-    $image_crop['crop_width'] = 400; // pixel width
-    $image_crop['crop_height'] = 200; // pixel height
-    $image_crop['quality'] = 100; // image percentage quality
-    $image_crop['destination_path'] = "images/"; // set destination folder
+    $image_crop = array(
+        'crop_width'        => 250,         // (integer) Cropped image width in pixels
+        'crop_height'       => 250,         // (integer) Cropped image height in pixels
+        'quality'           => 80,          // (integer) 0-100 image percentage quality
+        'save_directory'    => "images/"    // (string)  Save directory
+    );
+
     
-    // ======================================================================================
+    // =======================================================================================================
+
 
     // error handling
     require_once('error_handling.php');
