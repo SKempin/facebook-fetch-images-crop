@@ -11,7 +11,7 @@
     
     // Facebook Settings
     $facebook = array(
-        'access_token'  => '',              // (string) Valid Facebook access token
+        'access_token'  => '',              // (string) Facebook Page Access Token
         'album_id'      => '',              // (string) Facebook album ID (as seen www.facebook.com/*********)
         'image_limit'   => 8                // (integer) Number of image uploads to fetch
     );
@@ -22,7 +22,8 @@
         'crop_width'        => 250,         // (integer) Cropped image width in pixels
         'crop_height'       => 250,         // (integer) Cropped image height in pixels
         'quality'           => 80,          // (integer) 0-100 image percentage quality
-        'save_directory'    => "images/"    // (string)  Save directory
+        'save_directory'    => "images/",   // (string)  Save directory
+        'image_prefix'      => "facebook",      // (string)  Prefix before numeral 
     );
 
     

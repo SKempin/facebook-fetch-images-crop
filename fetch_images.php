@@ -16,7 +16,7 @@
 
                 $imgSourceURL = $currentImage->source;
                 $newImage++; //increment
-                resize_crop_image($image_crop['crop_width'], $image_crop['crop_height'], $imgSourceURL, "{$image_crop['destination_path']}/facebook_{$newImage}.jpg", $image_crop['quality']); // set crop size, destination_path and quality
+                resize_crop_image($image_crop['crop_width'], $image_crop['crop_height'], $imgSourceURL, "{$image_crop['save_directory']}/{$image_crop['image_prefix']}{$newImage}.jpg", $image_crop['quality']); // set crop size, destination_path and quality
                 break; // break loop after image limit
         }
 

@@ -1,22 +1,20 @@
 <?php
 
-//error handler function
-function customError($errno, $errstr) {
-  echo "<b>Error:</b> [$errno] $errstr<br>";
-  echo "Ending Script";
-  die();
-}
+/**
+ * @package    Facebook_Fetch_Images_Crop
+ * @author     Stephen Kempin <info@stephenkempin.co.uk>
+ **/
 
-//set error handler
-set_error_handler("customError",E_USER_ERROR);
+    /* Kill script if no access token or album ID entered */
+    
+    // die if no Facebook access token
+    if (empty($facebook['access_token'])) {
+      die("Empty Facebook access token");
+    };
 
-//trigger error
-if (empty($facebook['access_token'])) {
-  trigger_error("Access Token is not be set",E_USER_ERROR);
-}
-
-if (empty($facebook['album_id'])) {
-  trigger_error("Album ID is not be set",E_USER_ERROR);
-}
+    // die if no Facebook album ID
+    if (empty($facebook['album_id'])) {
+      die("Empty Facebook album ID.");
+    };
 
 ?>
