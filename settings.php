@@ -11,8 +11,8 @@
     
     // Facebook Settings
     $facebook = array(
-        'access_token'  => '',              // (string) Facebook Page Access Token
-        'album_id'      => '',              // (string) Facebook album ID (as seen www.facebook.com/*********)
+        'access_token'  => '',              // (string)  Facebook Page Access Token
+        'album_id'      => '',              // (string)  Facebook Album ID (e.g. https://www.facebook.com/media/set/?set=a.[ **ALBUM ID IS THIS NUMBER** ].90967.383141721750246&type=3)
         'image_limit'   => 8                // (integer) Number of image uploads to fetch
     );
     
