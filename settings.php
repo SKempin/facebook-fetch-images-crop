@@ -23,7 +23,7 @@
         'crop_height'       => 250,         // (integer) Cropped image height in pixels
         'quality'           => 80,          // (integer) 0-100 image percentage quality
         'save_directory'    => "images/",   // (string)  Save directory
-        'image_prefix'      => "facebook",  // (string)  Prefix before numeral 
+        'image_prefix'      => "facebook"   // (string)  Prefix before numeral 
     );
 
     
