@@ -11,13 +11,8 @@ Fetch image uploads from any Facebook Pages photo album (via the Graph API), cro
 
 Facebook settings:
 
-<<<<<<< HEAD
 	'access_token'  => ''       // (string)  Facebook Page Access Token
 	'album_id'      => ''       // (string)  Facebook album ID (e.g. https://www.facebook.com/media/set/?set=a.[ **ALBUM ID IS THIS NUMBER** ].90967.383141721750246&type=3)
-=======
-	'access_token'  => ''       // (string) Facebook Page Access Token
-	'album_id'      => ''       // (string) Facebook album ID (as seen www.facebook.com/*********)
->>>>>>> 398a45162b4e70557d7b5816d5c22feae3e07aaa
 	'image_limit'   => 8        // (integer) Number of image uploads to fetch
 
 Image crop and save settings:
