@@ -5,6 +5,11 @@
  * @author     Stephen Kempin <info@stephenkempin.co.uk>
  **/
  
+    // require config settings
+    require_once('config/config.php');
+ 
+ 
+    // fetch images - Graph API
     $url = "https://graph.facebook.com/{$facebook['album_id']}/photos?fields=images&limit={$facebook['image_limit']}&access_token={$facebook['access_token']}"; // Facebook Graph API call
     $image = json_decode(file_get_contents($url)); // decode JSON
    
