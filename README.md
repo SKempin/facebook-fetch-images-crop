@@ -26,3 +26,10 @@ Image crop and save settings:
 
 ## Usage
 Make a HTTP request to fetch_images.php to execute the script. Images will be saved to your server at the location set in `save_directory` (default is the `/images` folder). Cron job a HTTP request for automatic image generations. 
+
+
+## Author 
+[Stephen Kempin](http://www.stephenkempin.co.uk)
+
+## Licence
+MIT
