@@ -32,4 +32,4 @@ Make a HTTP request to fetch_images.php to execute the script. Images will be sa
 [Stephen Kempin](http://www.stephenkempin.co.uk)
 
 ## Licence
-MIT
+[MIT](https://github.com/SKempin/facebook-fetch-images-crop/blob/master/LICENSE)
