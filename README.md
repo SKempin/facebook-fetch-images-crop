@@ -1,5 +1,5 @@
 # Facebook Fetch Images Crop
-[![License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)] (https://github.com/SKempin/facebook-fetch-images-crop/blob/master/LICENSEE)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)] (https://github.com/SKempin/facebook-fetch-images-crop/blob/master/LICENSE)
 
 Fetch image uploads from any Facebook Pages photo album (via the Graph API), crop to specified sizes and save to a server directory. Images are cropped from the center outwards.
 
