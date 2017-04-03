@@ -5,7 +5,7 @@
 Fetch image uploads from any Facebook Pages photo album (via the Graph API), crop to specified sizes and save to a server directory. Images are cropped from the center outwards.
 
 ## Requirements
-- PHP 5.2
+- PHP >= 5.2
 - [Facebook Graph 'Page Access Token'](https://developers.facebook.com/docs/pages/access-tokens)
 - Server write permissions for the `save_directory`
  
