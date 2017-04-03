@@ -6,7 +6,7 @@ Fetch image uploads from any Facebook Pages photo album (via the Graph API), cro
 
 ## Requirements
 - PHP 5.2
-- Facebook Graph 'Page Access Token' (https://developers.facebook.com/docs/pages/access-tokens)
+- [Facebook Graph 'Page Access Token'](https://developers.facebook.com/docs/pages/access-tokens)
 - Server write permissions for the `save_directory`
  
 
