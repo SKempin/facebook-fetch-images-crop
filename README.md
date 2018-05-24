@@ -1,8 +1,10 @@
 # Facebook Fetch Images Crop
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](https://github.com/SKempin/facebook-fetch-images-crop/blob/master/LICENSE)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-no-red.svg)](https://bitbucket.org/lbesson/ansi-colors)
 
-Fetch image uploads from any Facebook Pages photo album (via the Graph API), crop to specified sizes and save to a server directory. Images are cropped from the center outwards.
+
+Fetch image uploads from any Facebook Pages photo album (via the Graph API v2.5), crop to specified sizes and save to a server directory. Images are cropped from the center outwards.
 
 ## Requirements
 - PHP >= 5.2
